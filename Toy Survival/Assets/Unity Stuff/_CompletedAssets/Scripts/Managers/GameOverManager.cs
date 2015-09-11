@@ -9,6 +9,10 @@ namespace CompleteProject
 
         Animator anim;                          // Reference to the animator component.
 
+        void Start()
+        {
+            playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        }
 
         void Awake ()
         {

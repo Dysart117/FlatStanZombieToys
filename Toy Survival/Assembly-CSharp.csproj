@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Stanley Stuff\OnDeath.cs" />
     <Compile Include="Assets\Unity Stuff\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Unity Stuff\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Unity Stuff\Scripts\Enemy\EnemyMovement.cs" />

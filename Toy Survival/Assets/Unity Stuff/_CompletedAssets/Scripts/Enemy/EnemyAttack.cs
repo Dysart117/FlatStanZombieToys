@@ -17,10 +17,10 @@ namespace CompleteProject
         float timer;                                // Timer for counting up to the next attack.
 
 
-        void Awake ()
+        void Awake()
         {
             // Setting up the references.
-            player = GameObject.FindGameObjectWithTag ("Player");
+            player = GameObject.FindGameObjectWithTag("Player");
             playerHealth = player.GetComponent <PlayerHealth> ();
             enemyHealth = GetComponent<EnemyHealth>();
             anim = GetComponent <Animator> ();
